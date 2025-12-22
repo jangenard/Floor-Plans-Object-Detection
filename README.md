@@ -1,7 +1,7 @@
 # Détection de composantes dans des plans d’architecte
 
 ## Présentation
-Ce projet vise à entraîner un modèle de deep learning capable de détecter automatiquement.
+Ce projet vise à entraîner un modèle de deep learning capable de détecter automatiquement
 des composantes architecturales (portes et fenêtres) à partir de plans d’architecte.
 
 ## Données
@@ -20,7 +20,7 @@ des composantes architecturales (portes et fenêtres) à partir de plans d’arc
 - Encodeur : **ResNet34**
 - Framework : TensorFlow / Keras
 - Taille des images d’entrée : **640 × 640**
-- Sortie : masque de segmentation binaire (portes + fenêtres) et fichier JSON comptant les portes et fenêtres détectés dans chaque image
+- Sortie : masque de segmentation binaire (portes + fenêtres) et fichier JSON comptant les portes et fenêtres détectées dans chaque image
 
 ## Entraînement
 
@@ -114,10 +114,10 @@ ou un dataset complet :
 python src/train.py
 ```
 
-Le fichier JSON de validation est enregistrée dans outputs/validation.
+Le fichier JSON de validation est enregistré dans outputs/validation.
 
 ## Limitations & améliorations possibles
 - Détection des murs, indépendamment de leur épaisseur
 - Support de nouveaux formats d’annotations (JSON, XML, masques PNG)
 - Vectorisation des prédictions
-- Évaluation orientée objets plutôt que strictement basée sur les pixels
+- Évaluation orientée objets plutôt que strictement basés sur les pixels
