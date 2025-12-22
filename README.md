@@ -65,7 +65,7 @@ pip install -e .
 ```
 
 Dépendances principales :
-- tensorflow>=2.15,<2.17
+- tensorflow>=2.15,<=2.18
 - segmentation-models==1.0.1
 - scipy
 - requests
