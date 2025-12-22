@@ -77,6 +77,9 @@ Dépendances principales :
 
 
 ## Utilisation :
+Il est important de noter que ce projet a été entraîné et testé de manière extensive uniquement sur kaggle par manque de ressources,
+il est donc recommandé d'utiliser le notebook pour entraîner, valider ou tester le modèle.
+
 ### Préparation du dataset
 Téléchargement et organisation du dataset : 
 ```bash
