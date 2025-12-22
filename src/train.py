@@ -117,7 +117,7 @@ def main():
         ]
     )
 
-    MODEL_DIR = "models"
+    MODEL_DIR = "saved_models"
     MODEL_PATH = os.path.join(MODEL_DIR, "unet.keras")
 
     os.makedirs(MODEL_DIR, exist_ok=True)
