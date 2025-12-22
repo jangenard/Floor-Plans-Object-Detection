@@ -1,0 +1,126 @@
+{
+    "IIc_RE0701.png": {
+        "Door": 5,
+        "Window": 10
+    },
+    "IIc_UO0701.png": {
+        "Door": 8,
+        "Window": 12
+    },
+    "IId_AD0801.png": {
+        "Door": 7,
+        "Window": 9
+    },
+    "IId_AE0602.png": {
+        "Door": 8,
+        "Window": 20
+    },
+    "IId_BA0702.png": {
+        "Door": 8,
+        "Window": 13
+    },
+    "IId_CT0401.png": {
+        "Door": 8,
+        "Window": 12
+    },
+    "IId_GI0601.png": {
+        "Door": 9,
+        "Window": 12
+    },
+    "IId_HT0601.png": {
+        "Door": 5,
+        "Window": 10
+    },
+    "IId_LA0401.png": {
+        "Door": 4,
+        "Window": 6
+    },
+    "IId_OZ0501.png": {
+        "Door": 10,
+        "Window": 13
+    },
+    "IId_PL0720.png": {
+        "Door": 7,
+        "Window": 8
+    },
+    "IId_PN0603.png": {
+        "Door": 9,
+        "Window": 9
+    },
+    "IId_VO0701.png": {
+        "Door": 7,
+        "Window": 14
+    },
+    "image001.png": {
+        "Door": 17,
+        "Window": 3
+    },
+    "image002.png": {
+        "Door": 9,
+        "Window": 9
+    },
+    "image003.png": {
+        "Door": 8,
+        "Window": 8
+    },
+    "image005.png": {
+        "Door": 14,
+        "Window": 8
+    },
+    "image006.png": {
+        "Door": 8,
+        "Window": 9
+    },
+    "image007.png": {
+        "Door": 4,
+        "Window": 6
+    },
+    "image008.png": {
+        "Door": 4,
+        "Window": 1
+    },
+    "image014.png": {
+        "Door": 11,
+        "Window": 9
+    },
+    "image021.png": {
+        "Door": 16,
+        "Window": 5
+    },
+    "image022.png": {
+        "Door": 12,
+        "Window": 4
+    },
+    "image023.png": {
+        "Door": 21,
+        "Window": 18
+    },
+    "image024.png": {
+        "Door": 26,
+        "Window": 14
+    },
+    "image025.png": {
+        "Door": 18,
+        "Window": 12
+    },
+    "image026.png": {
+        "Door": 7,
+        "Window": 5
+    },
+    "image027.png": {
+        "Door": 10,
+        "Window": 8
+    },
+    "image028.png": {
+        "Door": 8,
+        "Window": 7
+    },
+    "image029.png": {
+        "Door": 20,
+        "Window": 7
+    },
+    "image030.png": {
+        "Door": 13,
+        "Window": 2
+    }
+}
