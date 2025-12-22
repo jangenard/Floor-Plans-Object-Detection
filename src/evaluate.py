@@ -18,6 +18,7 @@ import numpy as np
 import tensorflow as tf
 
 from floorplan_detection.metrics.iou import iou, iou_loss
+from floorplan_detection.metrics.dice import dice, dice_ce_loss
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -56,8 +57,9 @@ def main() :
     model = tf.keras.models.load_model(
         MODEL_PATH,
         custom_objects={
-            "iou_loss": iou_loss,
-            "iou": iou
+            "dice_ce_loss": dice_ce_loss,
+            "iou": iou,
+            "dice": dice
         }
     )   
 
