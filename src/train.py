@@ -109,7 +109,7 @@ def main():
     Compilation du modèle avec l'optimizer Adam, la loss iou loss et les métriques
     """
     model.compile(
-        optimizer=tf.keras.optimizers.AdamW(learning_rate=1e-4), 
+        optimizer=tf.keras.optimizers.Adam(learning_rate=1e-5), 
         loss=dice_ce_loss,
         metrics=[
             dice,
