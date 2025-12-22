@@ -25,15 +25,15 @@ des composantes architecturales (portes et fenêtres) à partir de plans d’arc
 - Encodeur : **ResNet34**
 - Framework : TensorFlow / Keras
 - Taille des images d’entrée : **640 × 640**
-- Sortie : masque de segmentation binaire (portes + fenêtres) et fichier JSON comptant les portes et fenêtres détectées dans chaque image
+- Sortie : masque de segmentation binaire (portes + fenêtres) et fichier JSON comptant les portes et fenêtres détectées dans chaque image de validation
 
 ## Entraînement
 
 - Fonction de perte :
-- IoU Loss (adaptée aux problèmes de segmentation)
+- Dice + Entropie croisée
 - Métriques :
 - IoU (Intersection over Union)
-- Gestion du déséquilibre de classes
+- Coefficient de Dice
 - Augmentations de données (Albumentations)
 
 ## Résultats
@@ -59,7 +59,6 @@ source .env/bin/activate   # Linux / macOS
 ```
 
 ## Installation :
-Un notebook avec tout le projet est mis à disposition dans /notebook
 Cloner le dépot puis installer le projet en mode éditable : 
 ```bash
 pip install -e .
