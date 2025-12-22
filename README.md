@@ -3,6 +3,11 @@
 ## Présentation
 Ce projet vise à entraîner un modèle de deep learning capable de détecter automatiquement
 des composantes architecturales (portes et fenêtres) à partir de plans d’architecte.
+A partir de ce dépot, il est possible de :
+- cloner et installer le projet avec toutes ses librairies
+- tester le pipeline avec un échantillon de données (3 train et 2 val)
+- télécharger un dataset prêt à être utilisé (117 images + annotations, 36MB) à l'aide d'un script
+- éxecuter le projet directement depuis un notebook présent dans /notebook
 
 ## Données
 
@@ -54,6 +59,7 @@ source .env/bin/activate   # Linux / macOS
 ```
 
 ## Installation :
+Un notebook avec tout le projet est mis à disposition dans /notebook
 Cloner le dépot puis installer le projet en mode éditable : 
 ```bash
 pip install -e .
