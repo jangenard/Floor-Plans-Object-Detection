@@ -3,11 +3,11 @@
 ## Présentation
 Ce projet vise à entraîner un modèle de deep learning capable de détecter automatiquement
 des composantes architecturales (portes et fenêtres) à partir de plans d’architecte.
-A partir de ce dépot, il est possible de :
+À partir de ce dépôt, il est possible de :
 - cloner et installer le projet avec toutes ses librairies
 - tester le pipeline avec un échantillon de données (3 train et 2 val)
 - télécharger un dataset prêt à être utilisé (117 images + annotations, 36MB) à l'aide d'un script
-- éxecuter le projet directement depuis un notebook présent dans /notebook
+- exécuter le projet directement depuis un notebook présent dans /notebook
 
 ## Données
 
@@ -25,15 +25,15 @@ A partir de ce dépot, il est possible de :
 - Encodeur : **ResNet34**
 - Framework : TensorFlow / Keras
 - Taille des images d’entrée : **640 × 640**
-- Sortie : masque de segmentation binaire (portes + fenêtres) et fichier JSON comptant les portes et fenêtres détectées dans chaque image
+- Sortie : masque de segmentation binaire (portes + fenêtres) et fichier JSON comptant les portes et fenêtres détectées dans chaque image de validation
 
 ## Entraînement
 
 - Fonction de perte :
-- IoU Loss (adaptée aux problèmes de segmentation)
+- Dice + Entropie croisée
 - Métriques :
 - IoU (Intersection over Union)
-- Gestion du déséquilibre de classes
+- Coefficient de Dice
 - Augmentations de données (Albumentations)
 
 ## Résultats
@@ -50,7 +50,7 @@ Les images ci-dessous montrent :
 
 
 ## Prérequis
-- Python **3.10** ou **3.11** (64-bit recommandé)
+- Python **>=3.10** 64-bit
 - Environnement virtuel conseillé :
 ``` bash
 python -m venv .env
@@ -59,7 +59,6 @@ source .env/bin/activate   # Linux / macOS
 ```
 
 ## Installation :
-Un notebook avec tout le projet est mis à disposition dans /notebook
 Cloner le dépot puis installer le projet en mode éditable : 
 ```bash
 pip install -e .
