@@ -7,7 +7,7 @@ des composantes architecturales (portes et fenêtres) à partir de plans d’arc
 ## Données
 
 - **Entrées** :
-- Plans d’architecte au format image (PNG, JPEG)
+- Plans d’architecte au format image PNG
 - Taille variable (redimensionnement automatique)
 
 - **Annotations/labels** :
