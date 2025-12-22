@@ -50,7 +50,7 @@ Les images ci-dessous montrent :
 
 
 ## Prérequis
-- Python **3.10** ou **3.11** (64-bit recommandé)
+- Python **>=3.10** 64-bit
 - Environnement virtuel conseillé :
 ``` bash
 python -m venv .env
