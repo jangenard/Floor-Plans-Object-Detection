@@ -18,7 +18,7 @@ from floorplan_detection.data.collect_pairs import collect_pairs
 from floorplan_detection.models.unet import build_unet
 from floorplan_detection.callbacks.prediction_callback import PredictionCallback
 from floorplan_detection.metrics.iou import iou, iou_loss
-from floorplan_detection.metrics.dice import dice
+from floorplan_detection.metrics.dice import dice, dice_ce_loss
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -110,8 +110,11 @@ def main():
     """
     model.compile(
         optimizer=tf.keras.optimizers.AdamW(learning_rate=1e-4), 
-        loss=iou_loss,
-        metrics=[iou, dice]
+        loss=dice_ce_loss,
+        metrics=[
+            dice,
+            iou
+        ]
     )
 
     MODEL_DIR = "models"
