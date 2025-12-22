@@ -6,7 +6,7 @@ des composantes architecturales (portes et fenêtres) à partir de plans d’arc
 À partir de ce dépôt, il est possible de :
 - cloner et installer le projet avec toutes ses librairies
 - tester le pipeline avec un échantillon de données (3 train et 2 val)
-- télécharger un dataset prêt à être utilisé (117 images + annotations, 36MB) à l'aide d'un script
+- télécharger un dataset prêt à être utilisé (118 images + annotations, 36MB) à l'aide d'un script
 - exécuter le projet directement depuis un notebook présent dans /notebook
 
 ## Données
