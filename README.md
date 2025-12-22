@@ -39,9 +39,9 @@ Les images ci-dessous montrent :
 
 *(Prédictions effectuées sur le jeu de validation)*
 
-[Exemple avec des traits épais](assets/ex3.png)
+[Exemple avec des traits épais](assets/output_pred_ex_1.png)
 
-[Exemple avec des traits fins](assets/ex5.png)
+[Exemple avec des traits fins](assets/output_pred_ex_2.png)
 
 
 ## Prérequis
